@@ -6,9 +6,9 @@ function Header() {
       Filizzola
       <div>
         <Link to="/">Home</Link>
-        <Link to="/">About</Link>
-        <Link to="/">Projects</Link>
-        <Link to="/">Contacts</Link>
+        <Link to="/about">About</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contacts">Contacts</Link>
       </div>
     </header>
   );
