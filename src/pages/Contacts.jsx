@@ -1,6 +1,10 @@
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+
 function Contacts() {
   return (
     <div>
+      <Header />
       <div>
         <p>Contact Me</p>
         <div>
@@ -26,6 +30,7 @@ function Contacts() {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
