@@ -1,7 +1,12 @@
 function Skills() {
   return (
     <div>
-      Skills
+      <p>My Hard Skills</p>
+      <div>
+        JavaScript
+        HTML
+        CSS
+      </div>
     </div>
   )
 }
