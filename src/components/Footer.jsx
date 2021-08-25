@@ -1,8 +1,8 @@
 function Footer() {
   return (
-    <div>
-      FOOTer
-    </div>
+    <footer>
+      Pagina feita com React e Bootstrap. since 2021 
+    </footer>
   );
 }
 
