@@ -1,2 +1,0 @@
-# juliofilizzola.io
-Meu portifolio.
