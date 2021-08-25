@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <div>
+    <header>
       Filizzola
       <div>
         <Link to="/">Home</Link>
@@ -10,7 +10,7 @@ function Header() {
         <Link to="/">Projects</Link>
         <Link to="/">Contacts</Link>
       </div>
-    </div>
+    </header>
   );
 }
 
