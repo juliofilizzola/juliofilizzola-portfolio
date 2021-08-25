@@ -1,7 +1,12 @@
+import { Link } from 'react-router-dom';
+
 function Header() {
   return (
     <div>
-      HEADER
+      Filizzola
+      <div>
+        <Link to="/">Home</Link>
+      </div>
     </div>
   );
 }
