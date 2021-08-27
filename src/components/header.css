@@ -1,0 +1,31 @@
+header { 
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 5px;
+  align-self: center;
+  
+}
+
+.container a { 
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 4px;
+  text-decoration: none;
+  color: #000;
+}
+
+.container a:hover {
+  background-color: #03A696;
+  border: none;
+  color: #FDFAEF;
+}
+
+.container a:active {
+  background-color: #024059;
+}
