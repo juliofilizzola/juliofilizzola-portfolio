@@ -3,13 +3,13 @@ header {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  background-color: rgba(2, 64, 89, 0.5);
 }
 
 .container {
   display: flex;
   gap: 5px;
   align-self: center;
-  
 }
 
 .container a { 
