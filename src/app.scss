@@ -5,8 +5,10 @@
 }
 
 body { 
+  color: #fff;
   background: rgb(2,0,36);
   background: linear-gradient(36deg, rgba(2,0,36,1) 0%, rgba(61,61,61,1) 53%); 
   background-size: cover;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  height: 100vh;
 }
