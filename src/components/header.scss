@@ -4,13 +4,15 @@ header {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.2));
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .container {
   display: flex;
   gap: 5px;
   align-self: center;
+  color: #fff;
+   
 }
 
 .container a { 
@@ -18,7 +20,7 @@ header {
   border-radius: 5px;
   padding: 4px;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .container a:hover {
