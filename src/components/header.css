@@ -1,9 +1,10 @@
 header { 
+  padding: 0.8em;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background-color: rgba(2, 64, 89, 0.5);
+  background-color: rgba(2, 64, 89, 0.2);
 }
 
 .container {
