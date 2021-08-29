@@ -1,0 +1,30 @@
+.project-container {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+   .Project {
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      width: 80%;
+      > div {
+        padding: 15px;
+        display: flex;
+        transition: 10s;
+        .img-projects {
+          opacity: 0%;
+          width: 400px;
+          height: 400px;
+        }
+      
+      }
+      > div:hover .img-projects{
+        opacity: 100%;
+        width: 400px;
+        height: 400px;
+      }
+   }
+}
+
