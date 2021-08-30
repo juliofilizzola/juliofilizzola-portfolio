@@ -8,7 +8,7 @@ function Contacts() {
       <Header />
       <div className="container-contact">
         <h1>Contact Me</h1>
-        <div>
+        <div className="contact">
 
           <a 
             href="https://www.linkedin.com/in/julio-filizzola/"
