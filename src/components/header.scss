@@ -1,5 +1,6 @@
 header { 
-  width: 100vw;
+  width: 100%;
+	font-family: 'Source Code Pro', sans-serif;
   margin-top: 0;
   padding: 0.8em;
   display: flex;
@@ -14,7 +15,7 @@ header {
   display: flex;
   gap: 20px;
   align-self: center;
-	font-family: 'Source Code Pro', sans-serif;
+	// font-family: 'Source Code Pro', sans-serif;
  
   a {
     position: relative;
