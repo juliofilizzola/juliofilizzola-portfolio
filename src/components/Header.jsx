@@ -6,10 +6,35 @@ function Header() {
     <header>
       <p>Filizzola</p>
       <div className="container">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contacts">Contacts</Link>
+        
+        <Link to="/">
+          <span></span>
+          <span></span>
+            Home
+          <span></span>
+          <span></span>
+        </Link>
+        <Link to="/about">  
+          <span></span>
+          <span></span>
+          About
+          <span></span>
+          <span></span>
+        </Link>
+        <Link to="/projects">
+          <span></span>
+          <span></span>
+          Projects
+          <span></span>
+          <span></span>
+        </Link>
+        <Link to="/contacts">
+          <span></span>
+          <span></span>
+          Contacts
+          <span></span>
+          <span></span>
+        </Link>
       </div>
     </header>
   );
