@@ -7,7 +7,7 @@ function Contacts() {
     <div>
       <Header />
       <div className="container-contact">
-        <p>Contact Me</p>
+        <h1>Contact Me</h1>
         <div>
           <a 
             href="https://www.linkedin.com/in/julio-filizzola/"

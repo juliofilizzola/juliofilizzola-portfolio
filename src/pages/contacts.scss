@@ -3,6 +3,21 @@
   width: 90%;
   margin: 0 auto;
 
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  a {
+    margin-top: 250px;
+    text-decoration: none;
+    margin: 250px 20px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 5px;
+  }
+
   .container-contact-forms { 
     display: flex;
     flex-direction: column;
