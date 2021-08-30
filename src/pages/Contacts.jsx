@@ -9,11 +9,16 @@ function Contacts() {
       <div className="container-contact">
         <h1>Contact Me</h1>
         <div>
+
           <a 
             href="https://www.linkedin.com/in/julio-filizzola/"
             target="_blank"
             rel="noreferrer"
           >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
             LinkedIn
           </a>
           <a
@@ -21,6 +26,11 @@ function Contacts() {
             target="_blank"
             rel="noreferrer"
           >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
             Instagram
           </a>
           <a
@@ -28,6 +38,11 @@ function Contacts() {
             target="_blank"
             rel="noreferrer"
           >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
             Twitter
           </a>
 

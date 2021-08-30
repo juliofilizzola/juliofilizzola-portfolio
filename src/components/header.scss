@@ -4,6 +4,7 @@ header {
 	font-family: 'Source Code Pro', sans-serif;
   margin-top: 0;
   padding: 1em;
+	letter-spacing: 5px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -15,14 +16,14 @@ header {
 		border-right: 2px solid #fff;
 		white-space: nowrap;
 		overflow: hidden;
-		animation: blink 1000ms steps(35) infinite normal, typing 8s steps(40) 1s infinite normal both;
+		animation: blink 700ms steps(25) infinite normal, typing 2s steps(22) normal both;
 
 		@keyframes typing {
 			from {
 				width: 0;
 			}
 			to {
-				width: 5em;
+				width: 14em;
 			}
 		}
 
@@ -54,7 +55,6 @@ header {
 			letter-spacing: 4px;
 			overflow: hidden;
 			margin-right: 5px;
-
 		}
 	
 		a:hover {
