@@ -1,0 +1,14 @@
+.skills {
+  font-family: 'Source Code Pro', sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  .skills-hard, .skills-hard-frameworks {
+    margin: 5px;
+    > div { 
+      margin: 10px;
+      p {
+        margin: 10px 0 25px 0;
+      }
+    }
+  }
+}
