@@ -1,0 +1,25 @@
+.aboutContainer {
+  font-family: 'Source Code Pro', sans-serif;
+  height: 100%;
+  width: 90%;
+  padding: 15px;
+  gap: 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  
+  img {
+    align-self: center;
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+      color: #03e9f4;
+    }
+  }
+}
