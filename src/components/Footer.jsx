@@ -4,7 +4,7 @@ import './footer.scss';
 function Footer() {
   return (
     <footer>
-      <p>Pagina feita com React e Bootstrap. since 2021 <BsHeartFill/></p>
+      <p>Pagina feita com React e CSS. since 2021 <BsHeartFill/></p>
     </footer>
   );
 }
