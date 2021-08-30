@@ -16,13 +16,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "build": "npm-run-all build:css build:html",
-    "build:css": "node-sass src/site/_includes/css/main.scss > src/site/css/main.css",
-    "build:html": "eleventy",
-    "watch": "npm-run-all --parallel watch:css watch:html",
-    "watch:css": "node-sass --watch src/site/_includes/css/main.scss > src/site/css/main.css",
-    "watch:html": "eleventy --serve --port=8181",
-    "start": "npm run watch"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "^5.0.0",
+    "sass-loader": "^12.1.0"
   }
 }
