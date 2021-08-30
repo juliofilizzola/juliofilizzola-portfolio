@@ -9,9 +9,28 @@ function Contacts() {
       <div className="container-contact">
         <p>Contact Me</p>
         <div>
-          LinkedIn
-          Twitter
-          Instagram  
+          <a 
+            href="https://www.linkedin.com/in/julio-filizzola/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://www.instagram.com/juliofilizzola/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Instagram
+          </a>
+          <a
+            href="https://twitter.com/Juliofilizzola"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Twitter
+          </a>
+
         </div> 
         <div className="container-contact-forms">
           <p>Ou me mande um email</p>
