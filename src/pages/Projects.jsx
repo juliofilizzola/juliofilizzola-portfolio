@@ -10,24 +10,20 @@ function Projects() {
     <div>
       <Header />
       <div className="project-container">
-        {/* <Card style={{ width: '18rem' }}>
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-            </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-          </Card.Body>
-        </Card> */}
         <main>
-          <p>My Projects</p>
+          <h1>My Projects</h1>
           <div>
           Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through 
           </div>
-          <p>Link to my <a href="https://github.com/juliofilizzola" target="_blank" rel="noreferrer">Github</a></p>
+          <p>Link to my 
+            <a href="https://github.com/juliofilizzola" target="_blank" rel="noreferrer">
+              <span></span>
+              <span></span>
+              Github
+              <span></span>
+              <span></span>
+            </a>
+          </p>
         </main>
         <section>
           <div className="Project">
