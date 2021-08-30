@@ -54,10 +54,10 @@ function Contacts() {
               <input type="text" name="name"  placeholder="Seu nome"/>
             </label>
             <label htmlFor="email">
-              <input type="text" name="email" value="<?php>" placeholder="Seu email"/>
+              <input type="text" name="email" placeholder="Seu email"/>
             </label>
             <label htmlFor="subject">
-              <input type="text" name="subject" value="<?php>" placeholder="Assunto"/>
+              <input type="text" name="subject" placeholder="Assunto"/>
             </label>
             <label htmlFor="contentEmail">
               <textarea name="contentEmail" cols="30" placeholder="Sua mensagem" rows="10"/>

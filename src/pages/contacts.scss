@@ -123,18 +123,19 @@
   }
 
   .container-contact-forms { 
+    
     display: flex;
     margin: 15px;
     flex-direction: column;
     align-items: center;
-
-    .forms { 
-     align-items: center;
-
+    
+    .forms {
+      align-items: center;
       width: 80%;
       display: flex;
       flex-direction: column;
       input {
+        font-family: 'Source Code Pro', sans-serif;
         height: 2rem;
       }
       input, textarea { 
