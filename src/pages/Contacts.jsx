@@ -50,17 +50,17 @@ function Contacts() {
         <div className="container-contact-forms">
           <p>Ou me mande um email</p>
           <form action="" className="forms">
-            <label>
-              <input type="text" name="email" />
+            <label htmlFor="name">
+              <input type="text" name="name"  placeholder="Seu nome"/>
             </label>
-            <label>
-              <input type="text" name="email" value="<?php>" />
+            <label htmlFor="email">
+              <input type="text" name="email" value="<?php>" placeholder="Seu email"/>
             </label>
-            <label>
-              <input type="text" name="email" value="<?php>" />
+            <label htmlFor="subject">
+              <input type="text" name="subject" value="<?php>" placeholder="Assunto"/>
             </label>
-            <label>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+            <label htmlFor="contentEmail">
+              <textarea name="contentEmail" cols="30" placeholder="Sua mensagem" rows="10"/>
             </label>
           </form>
         </div>
