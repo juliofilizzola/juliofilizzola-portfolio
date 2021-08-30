@@ -10,10 +10,20 @@ header {
   background-color: rgba(0, 0, 0, 0.1);
   color: #fff;
 
-	> p {
+	.text {
 		border-right: 2px solid #fff;
-		padding-right: 3px;
-		animation: blink 500ms infinite normal;
+		white-space: nowrap;
+		overflow: hidden;
+		animation: blink 800ms steps(35) infinite normal, typing 7s steps(35) 2s infinite normal both;
+
+		@keyframes typing {
+			from {
+				width: 0;
+			}
+			to {
+				width: 5em;
+			}
+		}
 
 		@keyframes blink {
 			from {
@@ -23,15 +33,15 @@ header {
 				border-right-color: transparent;
 			}
 		}
+
 	}
 
 	.container {
 		display: flex;
 		gap: 20px;
 		align-self: center;
-		// font-family: 'Source Code Pro', sans-serif;
 	 
-		a {
+		> a {
 			position: relative;
 			display: inline-block;
 			padding: 2px 3px;
@@ -43,16 +53,18 @@ header {
 			letter-spacing: 4px;
 			overflow: hidden;
 			margin-right: 5px;
+
 		}
 	
 		a:hover {
 			background: #03e9f4;
+			border: 1px solid #03e9f4;
 			color: #050801;
 			box-shadow: 0 0 5px #03e9f4,
 									0 0 25px #03e9f4,
 									0 0 50px #03e9f4,
 									0 0 200px #03e9f4;
-			-webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+			-webkit-box-reflect:below 1px linear-gradient(transparent, #0005);		
 		}
 	
 		a:nth-child(1) {

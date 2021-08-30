@@ -4,7 +4,7 @@ import './header.scss';
 function Header() {
   return (
     <header>
-      <p>Filizzola</p>
+      <p className="text">Filizzola</p>
       <div className="container">
         
         <Link to="/">
