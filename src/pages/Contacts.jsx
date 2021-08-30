@@ -1,22 +1,23 @@
-import Footer from "../components/Footer"
-import Header from "../components/Header"
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import './contacts.scss';
 
 function Contacts() {
   return (
     <div>
       <Header />
-      <div>
+      <div className="container-contact">
         <p>Contact Me</p>
         <div>
           LinkedIn
           Twitter
           Instagram  
         </div> 
-        <div>
+        <div className="container-contact-forms">
           <p>Ou me mande um email</p>
-          <form action="">
+          <form action="" className="forms">
             <label>
-              <input type="text" name="email" value="<?php>" />
+              <input type="text" name="email" />
             </label>
             <label>
               <input type="text" name="email" value="<?php>" />
