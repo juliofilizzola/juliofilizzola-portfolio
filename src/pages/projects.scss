@@ -146,13 +146,25 @@
         height: 300px;
       }
 
-     p {
-      display: flex;
-      flex-direction: column;
-      span {
-        font-weight: 200;
+      .text_Container {
+        gap: 15px;
+        p {
+          display: flex;
+          margin: 15px;
+          flex-direction: column;
+          .link_git {
+            font-weight: 200;
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+              text-decoration: underline;
+              color: #03e9f4;
+            }
+
+          }
+        }
       }
-     }
     
     }
     .containerProject:hover .img-projects{
