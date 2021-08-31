@@ -143,6 +143,20 @@
         border-radius: 5px;
         margin: 5px;
       }
+      button {
+        border-radius: 8px;
+        width: 100px;
+        height: 30px;
+        color: #fff;
+        background: transparent;
+
+        &:hover {
+          width: 100px;
+          height: 30px;
+          color: #000;
+          background: #fff;
+        }
+      }
     }
   }
 }

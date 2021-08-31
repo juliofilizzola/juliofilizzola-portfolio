@@ -62,6 +62,7 @@ function Contacts() {
             <label htmlFor="contentEmail">
               <textarea name="contentEmail" cols="30" placeholder="Sua mensagem" rows="10"/>
             </label>
+            <button>Enviar</button>
           </form>
         </div>
       </div>
