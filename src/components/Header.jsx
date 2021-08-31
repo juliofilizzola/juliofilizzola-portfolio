@@ -10,28 +10,28 @@ function Header() {
         <Link to="/">
           <span></span>
           <span></span>
-            Home
+          Home
           <span></span>
           <span></span>
         </Link>
         <Link to="/about">  
           <span></span>
           <span></span>
-          About
+          Sobre
           <span></span>
           <span></span>
         </Link>
         <Link to="/projects">
           <span></span>
           <span></span>
-          Projects
+          Projetos
           <span></span>
           <span></span>
         </Link>
         <Link to="/contacts">
           <span></span>
           <span></span>
-          Contacts
+          Contatos
           <span></span>
           <span></span>
         </Link>
