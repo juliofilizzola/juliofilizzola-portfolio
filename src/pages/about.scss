@@ -17,18 +17,24 @@
       border-radius: 50%;
     }
   
-    a {
-      text-decoration: none;
-      color: #fff;
-      &:hover {
-        color: #03e9f4;
-      }
-    }
-  
     div {
       margin-top: 35px;
       h1 {
         margin-bottom: 45px;
+      }
+      p {
+        display: flex;
+        flex-direction: column;
+        a {
+          margin-top: 10px;
+          text-decoration: none;
+          color: #fff;
+          font-weight: 200;
+          &:hover {
+            text-decoration: underline;
+            color: #03e9f4;
+          }
+        }
       }
     }
   }
