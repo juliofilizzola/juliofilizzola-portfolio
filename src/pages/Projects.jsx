@@ -1,18 +1,26 @@
+import React from 'react';
 import Footer from "../components/Footer"
+import { useLocation } from 'react-router-dom';
 import Header from "../components/Header"
 import Space from '../image/block_big.jpg';
 import Todo from '../image/todoList.png'
-// import { Card } from 'react-bootstrap';
 import './projects.scss';
 
 
 function Projects() {
+  let location = useLocation();
+  React.useEffect(() => {
+    if (location.pathname === '/projects'){
+      document.title='Projects';
+      document.getElementById("favicon").href = Todo;
+    }
+  })
   return (
     <div>
       <Header />
       <div className="project-container">
         <main>
-          <h1>My Projects</h1>
+          <h1>Meus projetos</h1>
           <div>
             Algum desses projetos são de conho avaliativo da Trybe que fiz, e outros são projetos pessoais.
           </div>
