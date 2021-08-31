@@ -45,6 +45,18 @@ function Contacts() {
 
             Twitter
           </a>
+          <a
+            href="https://github.com/juliofilizzola"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+            Github
+          </a>
 
         </div> 
         <div className="container-contact-forms">
