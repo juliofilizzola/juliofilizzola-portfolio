@@ -128,22 +128,55 @@
     margin: 15px;
     flex-direction: column;
     align-items: center;
+
+    .separator {
+      font-size: 14px;
+      color: #fff;
+  
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+  
+      &::before {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: #fff;
+        margin-right: 16px;
+      }
+  
+      &::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: #fff;
+        margin-left: 16px;
+      }
+    }
     
     .forms {
       align-items: center;
       width: 80%;
       display: flex;
       flex-direction: column;
+
       input {
         font-family: 'Source Code Pro', sans-serif;
         height: 2rem;
       }
+
       input, textarea { 
         width: 23rem;
         border-radius: 5px;
         margin: 5px;
       }
+
+      textarea {
+        height: 155px;
+      }
+
       button {
+        margin-top: 10px;
         border-radius: 8px;
         width: 100px;
         height: 30px;

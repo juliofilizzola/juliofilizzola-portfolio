@@ -48,7 +48,7 @@ function Contacts() {
 
         </div> 
         <div className="container-contact-forms">
-          <p>Ou me mande um email</p>
+          <div className="separator">Ou me mande um email</div>
           <form action="" className="forms">
             <label htmlFor="name">
               <input type="text" name="name"  placeholder="Seu nome"/>
