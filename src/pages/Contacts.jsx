@@ -2,6 +2,7 @@ import React from "react";
 import { useLocation } from 'react-router-dom';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import contactIcon from "../image/contact.png"
 import './contacts.scss';
 
 function Contacts() {
@@ -10,7 +11,7 @@ function Contacts() {
   React.useEffect(() => {
     if (location.pathname === '/contacts'){
       document.title='Contato';
-      // document.getElementById("favicon").href = <FaBeer/>;
+      document.getElementById("favicon").href = contactIcon;
     }
   });
   return (
