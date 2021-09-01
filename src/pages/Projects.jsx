@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Space from '../image/block_big.jpg';
 import Todo from '../image/todoList.png';
+import ProjectsImg from '../image/icons8-código-80.png';
 import './projects.scss';
 
 
@@ -16,7 +17,7 @@ function Projects() {
   React.useEffect(() => {
     if (location.pathname === '/projects'){
       document.title='Projects';
-      document.getElementById("favicon").href = <FaBeer/>;
+      document.getElementById("favicon").href = ProjectsImg;
     }
   });
 
