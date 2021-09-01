@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { useLocation } from 'react-router-dom';
+import skillsIcons from "../image/skill.png";
 import './skills.scss';
 
 function Skills() {
@@ -10,9 +11,10 @@ function Skills() {
   React.useEffect(() => {
     if (location.pathname === '/skills'){
       document.title='Skills';
-      // document.getElementById("favicon").href = <FaBeer/>;
+      document.getElementById("favicon").href = skillsIcons;
     }
   });
+  
   return (
     <div>
       <Header/>
