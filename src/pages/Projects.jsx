@@ -7,6 +7,7 @@ import Todo from '../image/todoList.png'
 import './projects.scss';
 
 
+
 function Projects() {
   let location = useLocation();
   React.useEffect(() => {
