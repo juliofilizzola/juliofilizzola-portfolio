@@ -11,13 +11,15 @@ import './projects.scss';
 
 
 function Projects() {
-  let location = useLocation();
+  const location = useLocation();
+  
   React.useEffect(() => {
     if (location.pathname === '/projects'){
       document.title='Projects';
       document.getElementById("favicon").href = <FaBeer/>;
     }
-  })
+  });
+
   return (
     <div>
       <Header />

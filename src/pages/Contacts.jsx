@@ -1,8 +1,18 @@
+import React from "react";
+import { useLocation } from 'react-router-dom';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import './contacts.scss';
 
 function Contacts() {
+  const location = useLocation();
+  
+  React.useEffect(() => {
+    if (location.pathname === '/contacts'){
+      document.title='Contato';
+      // document.getElementById("favicon").href = <FaBeer/>;
+    }
+  });
   return (
     <div>
       <Header />
