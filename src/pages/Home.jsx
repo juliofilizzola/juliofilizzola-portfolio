@@ -4,6 +4,7 @@ import AboutMyself from "../components/AboutMyself";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ProjectReview from "../components/ProjectReview";
+import HomeIcon from "../image/Home.svg"
 
 function Home() {
   const location = useLocation();
@@ -12,7 +13,7 @@ function Home() {
     if (location.pathname === '/'){
       document.title= "Julio Filizzola";
 
-      // document.getElementById("favicon").href = <FaBeer/>;
+      document.getElementById("favicon").href = HomeIcon;
     }
   });
   return (

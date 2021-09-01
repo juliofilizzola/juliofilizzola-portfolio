@@ -1,5 +1,4 @@
 import React from 'react';
-import {FaBeer} from 'react-icons/fa';
 import {DiGithubBadge} from 'react-icons/di';
 import { useLocation } from 'react-router-dom';
 import Header from "../components/Header";
