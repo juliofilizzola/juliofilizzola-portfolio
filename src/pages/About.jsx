@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import AboutIcon from "../image/about.svg";
 import './about.scss';
 
 function About() {
@@ -10,7 +11,7 @@ function About() {
   React.useEffect(() => {
     if (location.pathname === '/about'){
       document.title='Sobre';
-      // document.getElementById("favicon").href = <FaBeer/>;
+      document.getElementById("favicon").href = AboutIcon;
     }
   });
   
