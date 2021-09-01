@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Space from '../image/block_big.jpg';
 import Todo from '../image/todoList.png';
-import ProjectsImg from '../image/icons8-código-80.png';
+import ProjectsImg from '../image/project.png';
 import './projects.scss';
 
 
