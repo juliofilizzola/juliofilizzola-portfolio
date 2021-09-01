@@ -16,6 +16,7 @@ function Home() {
       document.getElementById("favicon").href = HomeIcon;
     }
   });
+  
   return (
     <div>
       <Header />
