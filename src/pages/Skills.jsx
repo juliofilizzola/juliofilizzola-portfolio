@@ -1,8 +1,18 @@
+import React from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { useLocation } from 'react-router-dom';
 import './skills.scss';
 
 function Skills() {
+  const location = useLocation();
+  
+  React.useEffect(() => {
+    if (location.pathname === '/skills'){
+      document.title='Skills';
+      // document.getElementById("favicon").href = <FaBeer/>;
+    }
+  });
   return (
     <div>
       <Header/>
