@@ -1,0 +1,18 @@
+.skills {
+  font-family: 'Source Code Pro', sans-serif;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.skills .skills-hard, .skills .skills-hard-frameworks {
+  margin: 5px;
+}
+
+.skills .skills-hard > div, .skills .skills-hard-frameworks > div {
+  margin: 10px;
+}
+
+.skills .skills-hard > div p, .skills .skills-hard-frameworks > div p {
+  margin: 10px 0 25px 0;
+}
+/*# sourceMappingURL=skills.css.map */

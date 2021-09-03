@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import contactIcon from "../image/contact.png"
-import './contacts.scss';
+import './contacts.css';
 
 function Contacts() {
   const location = useLocation();

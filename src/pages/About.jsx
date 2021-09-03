@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import AboutIcon from "../image/About.svg";
-import './about.scss';
+import './about.css';
 
 function About() {
   const location = useLocation();

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './projectReview.scss';
+import './projectReview.css';
 
 function ProjectReview() {
   return (

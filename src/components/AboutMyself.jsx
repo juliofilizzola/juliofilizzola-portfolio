@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './aboutMyself.scss';
+import './aboutMyself.css';
 
 function AboutMyself() {
   return (

@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { useLocation } from 'react-router-dom';
 import skillsIcons from "../image/skill.png";
-import './skills.scss';
+import './skills.css';
 
 function Skills() {
   const location = useLocation();

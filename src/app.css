@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: #161616;
+  background: linear-gradient(148deg, #161616 0%, #131313 47%, #0f0f0f 100%);
+  background-size: cover;
+  height: 100%;
+}
+/*# sourceMappingURL=app.css.map */
