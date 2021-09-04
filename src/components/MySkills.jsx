@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function MySkills() {
   return (
-    <div>
+    <div className="my-skill-review">
       
     </div>
   );
