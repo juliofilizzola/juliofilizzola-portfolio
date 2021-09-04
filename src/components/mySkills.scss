@@ -1,0 +1,22 @@
+.my-skill-review {
+	font-family: 'Source Code Pro', sans-serif;
+  width: 60%;
+  margin: 80px auto;
+  h1 {
+    margin-bottom: 15px;
+  }
+  p {
+    display: flex;
+    flex-direction: column;
+    a {
+      margin-top: 10px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 200;
+      &:hover {
+        text-decoration: underline;
+        color: #03e9f4;
+      }
+    }
+  }
+}
