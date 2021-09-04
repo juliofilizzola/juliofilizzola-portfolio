@@ -29,10 +29,11 @@ function About() {
             <p>
               Sou estudante de Web Developer na 
               <a
-               href="https://www.betrybe.com/"
-               alt="Link para o site da trybe"
-               target="_blank"
-               rel="noreferrer"
+                className="aTrybe"
+                href="https://www.betrybe.com/"
+                alt="Link para o site da trybe"
+                target="_blank"
+                rel="noreferrer"
               >
                 Trybe
               </a>
