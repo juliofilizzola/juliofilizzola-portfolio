@@ -29,9 +29,9 @@ function Projects() {
         <main>
           <h1>Meus projetos</h1>
           <div>
-            Algum desses projetos são de conho avaliativo da Trybe que fiz, e outros são projetos pessoais.
+            Algum desses projetos são de cunho avaliativo da Trybe, e outros são projetos pessoais.
           </div>
-          <p>Link to my 
+          <p>Link do meu
             <a href="https://github.com/juliofilizzola" target="_blank" rel="noreferrer">
               <span></span>
               <span></span>

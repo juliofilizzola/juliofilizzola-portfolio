@@ -36,7 +36,7 @@
   position: relative;
   display: inline-block;
   padding: 2px 3px;
-  margin: 15px 0 2px 15px;
+  margin: 0 0 2px 15px;
   color: #03e9f4;
   text-decoration: none;
   text-transform: uppercase;
@@ -44,6 +44,7 @@
   transition: 0.5s;
   letter-spacing: 4px;
   overflow: hidden;
+  margin-right: 5px;
 }
 
 .project-container > main > p a:hover {
@@ -232,6 +233,7 @@
   font-weight: 200;
   text-decoration: none;
   color: #fff;
+  margin-top: 10px;
 }
 
 .project-container .Project .containerProject .text_Container p .link_git:hover {
