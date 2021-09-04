@@ -8,7 +8,7 @@ function AboutMyself() {
       <h1>Um pouco sobre mim</h1>
       <p>
       Olá, meu nome é Julio Filizzola, sou estudante de Web desenvolvimento na Trybe. Usei todos os meu conhecimentos adquiridos lá para criar esse portfólio. 
-        <Link to='/about'>Para Saber Mais sobre mim...</Link>
+        <Link className="link_git" to='/about'>Para Saber Mais sobre mim...</Link>
       </p>
     </div>
   )

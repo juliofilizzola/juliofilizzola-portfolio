@@ -23,12 +23,11 @@ function About() {
       <div className="aboutContainer">
         <img src="https://avatars.githubusercontent.com/u/65046505?s=400&u=ea9628f923188d9161d1745f22cd3216b01a381c&v=4" alt="Julio Filizzola" />
 
-          <div>
+          <section>
 
             <h1>Sobre Mim</h1>
             <p>
-              Sou estudante de Web Developer na 
-              <a
+              Sou estudante de Web Developer na <a
                 className="aTrybe"
                 href="https://www.betrybe.com/"
                 alt="Link para o site da trybe"
@@ -39,7 +38,7 @@ function About() {
               </a>
             </p>
             <Skills />
-          </div>
+          </section>
         </div>
       </div>
       <Footer />

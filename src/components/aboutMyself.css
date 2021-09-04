@@ -23,14 +23,14 @@
           flex-direction: column;
 }
 
-.container-myself p a {
+.container-myself p .link_git {
   margin-top: 10px;
   text-decoration: none;
   color: #fff;
   font-weight: 200;
 }
 
-.container-myself p a:hover {
+.container-myself p .link_git:hover {
   text-decoration: underline;
   color: #03e9f4;
 }

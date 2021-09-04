@@ -9,7 +9,17 @@
     gap: 15px;
     margin: 0 auto;
     display: flex;
-    
+
+    .aTrybe {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 200;
+      &:hover {
+        text-decoration: underline;
+        color: #03e9f4;
+      }
+    }
+
     img {
       height: 320px;
       width: 320px;

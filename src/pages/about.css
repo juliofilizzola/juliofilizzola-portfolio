@@ -14,6 +14,17 @@
   display: flex;
 }
 
+.aboutALL .aboutContainer .aTrybe {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 200;
+}
+
+.aboutALL .aboutContainer .aTrybe:hover {
+  text-decoration: underline;
+  color: #03e9f4;
+}
+
 .aboutALL .aboutContainer img {
   height: 320px;
   width: 320px;
