@@ -1,7 +1,7 @@
 import React from "react";
 import './skills.css';
 import {DiHtml5, 
-  DiCss3, DiGit, DiGithubBadge, DiReact, DiSass, DiNpm, DiJsBadge, DiTerminal} from "react-icons/di";
+  DiCss3, DiGit, DiGithubBadge, DiReact, DiSass, DiNpm, DiUbuntu, DiJsBadge, DiTerminal} from "react-icons/di";
 
 function Skills() {
    
@@ -27,6 +27,7 @@ function Skills() {
           <div>
             <DiGithubBadge />
             <DiTerminal />
+            <DiUbuntu/>
             <DiReact />
             <DiSass />
             <DiNpm />
