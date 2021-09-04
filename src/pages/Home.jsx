@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import AboutMyself from "../components/AboutMyself";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import MySkills from "../components/MySkills";
 import ProjectReview from "../components/ProjectReview";
 import HomeIcon from "../image/Home.svg"
 
@@ -22,6 +23,7 @@ function Home() {
       <Header />
       <AboutMyself />
       <ProjectReview />
+      <MySkills />
       <Footer />
     </div>
   );
