@@ -7,7 +7,7 @@ function MySkills() {
       <h1>Skills</h1>
       <p>
         Minhas Skills, que adiquiri durante os estudos na Trybe!
-        <Link to="/projects">Veja elas por completo!</Link>
+        <Link to="/skills">Veja elas por completo!</Link>
       </p>
     </div>
   );
