@@ -1,23 +1,10 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import { useLocation } from 'react-router-dom';
-import skillsIcons from "../image/skill.png";
 import './skills.css';
 
 function Skills() {
-  const location = useLocation();
-  
-  React.useEffect(() => {
-    if (location.pathname === '/skills'){
-      document.title='Skills';
-      document.getElementById("favicon").href = skillsIcons;
-    }
-  });
-  
+   
   return (
     <div>
-      <Header/>
       <div className="skills">
         <h1>My Hard Skills</h1>
 
@@ -80,7 +67,6 @@ function Skills() {
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
   )
 }
