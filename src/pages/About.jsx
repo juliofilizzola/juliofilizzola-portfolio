@@ -31,8 +31,7 @@ function About() {
                href="https://www.betrybe.com/" alt="Link para o site da trybe"
                target="_blank"
             rel="noreferrer"
-            >Trybe</a>, 
-              <Link to="/skills"> Mais sobre mim </Link>
+            >Trybe</a>
             </p>
             <Skills />
           </div>
