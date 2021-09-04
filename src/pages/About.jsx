@@ -27,7 +27,7 @@ function About() {
 
             <h1>Sobre Mim</h1>
             <p>
-              Sou estudante de Web Developer na <a
+              Olá, sou Julio Filizzola, tenho 25 anos. Sou estudante de Web Developer na <a
                 className="aTrybe"
                 href="https://www.betrybe.com/"
                 alt="Link para o site da trybe"
@@ -35,7 +35,10 @@ function About() {
                 rel="noreferrer"
               >
                 Trybe
-              </a>
+              </a>, fascinado por tecnologia e o modo ao qual lidamos com elas. 
+            </p>
+            <p>
+
             </p>
             <Skills />
           </section>
