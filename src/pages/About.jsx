@@ -27,7 +27,11 @@ function About() {
 
             <h1>Sobre Mim</h1>
             <p>
-              Sou estudante de Web Developer na Trybe, 
+              Sou estudante de Web Developer na <a
+               href="https://www.betrybe.com/" alt="Link para o site da trybe"
+               target="_blank"
+            rel="noreferrer"
+            >Trybe</a>, 
               <Link to="/skills"> Mais sobre mim </Link>
             </p>
             <Skills />
