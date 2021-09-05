@@ -1,5 +1,5 @@
 .aboutALL {
-  margin: 5px 0 40px 0;
+  margin: 0.3125em 0 2.500em 0;
 }
 
 .aboutALL .aboutContainer {
@@ -17,7 +17,7 @@
 .aboutALL .aboutContainer img {
   height: 15em;
   width: 15em;
-  margin: 15px 20px 0 0;
+  margin: 0.9em 1em 0 0;
   border-radius: 50%;
 }
 
