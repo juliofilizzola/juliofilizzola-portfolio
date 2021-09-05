@@ -7,8 +7,8 @@
 
 body {
   color: #fff;
-  background: #161616;
-  background: linear-gradient(148deg, #161616 0%, #131313 47%, #0f0f0f 100%);
+  background: #0f2027;
+  background: linear-gradient(145deg, #0f2027 60%, #2c5364 100%);
   background-size: cover;
   height: 100%;
 }

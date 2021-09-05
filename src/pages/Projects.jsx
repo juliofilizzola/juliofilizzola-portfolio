@@ -22,7 +22,7 @@ function Projects() {
   });
 
   return (
-    <div>
+    <div className="pageProjects">
       <Header />
       
       <div className="project-container">
