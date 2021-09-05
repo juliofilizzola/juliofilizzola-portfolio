@@ -1,0 +1,38 @@
+.skills {
+  margin: 0.3125em 0 2.500em 0;
+  .skills-hard {
+    margin: 1em 0;
+    .languages {
+      margin: 0.3125em 0;
+      display: flex;
+      gap: 1em;
+      font-size: 60px;
+      &:hover {
+        color: #03e9f4;
+      }
+    }
+
+  }
+
+  .skills-hard-frameworks {
+    margin: 1em 0;
+    .Frameworks {
+      margin: 0.3125em 0;
+      display: flex;
+      gap: 1em;
+      font-size: 60px;
+      &:hover {
+        color: #03e9f4;
+      }
+    }
+    .Others {
+      margin: 0.3125em 0;
+      display: flex;
+      gap: 1em;
+      font-size: 60px;
+      &:hover {
+        color: #03e9f4;
+      }
+    }
+  }
+}

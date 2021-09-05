@@ -1,0 +1,37 @@
+.container-myself {
+  font-family: 'Source Code Pro', sans-serif;
+  width: 60%;
+  margin: 80px auto;
+}
+
+.container-myself img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container-myself h1 {
+  margin: 15px 0;
+}
+
+.container-myself p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-myself p .link_git {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 200;
+}
+
+.container-myself p .link_git:hover {
+  text-decoration: underline;
+  color: #03e9f4;
+}
+/*# sourceMappingURL=aboutMyself.css.map */

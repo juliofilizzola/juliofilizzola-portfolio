@@ -1,10 +1,12 @@
 import { BsHeartFill } from 'react-icons/bs';
-import './footer.scss';
+import { DiSass, DiReact } from "react-icons/di";
+
+import './footer.css';
 
 function Footer() {
   return (
     <footer>
-      <p>Pagina feita com React e CSS. since 2021 <BsHeartFill/></p>
+      <p>Pagina feita com <DiReact/> e <DiSass/>. since 2021 <BsHeartFill/></p>
     </footer>
   );
 }
