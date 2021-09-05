@@ -50,8 +50,8 @@
   background: #03e9f4;
   border: 0.1px solid #03e9f4;
   color: #050801;
-  -webkit-box-shadow: 0 0 5px #03e9f4, 0 0 2px #03e9f4;
-          box-shadow: 0 0 5px #03e9f4, 0 0 2px #03e9f4;
+  -webkit-box-shadow: 0 0 5px #03e9f4, 0 0 2px #03e9f4;
+          box-shadow: 0 0 5px #03e9f4, 0 0 2px #03e9f4;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
@@ -206,11 +206,15 @@
 }
 
 .project-container .Project .containerProject .img-projects {
-  -webkit-transition: 2s;
-  transition: 2s;
+  -webkit-transition: 3s;
+  transition: 3s;
   opacity: 0%;
   width: 300px;
   height: 300px;
+}
+
+.project-container .Project .containerProject:hover .img-projects {
+  opacity: 100%;
 }
 
 .project-container .Project .containerProject .text_Container {
@@ -238,11 +242,5 @@
 .project-container .Project .containerProject .text_Container p .link_git:hover {
   text-decoration: underline;
   color: #03e9f4;
-}
-
-.project-container .Project .containerProject:hover .img-projects {
-  opacity: 100%;
-  width: 300px;
-  height: 300px;
 }
 /*# sourceMappingURL=projects.css.map */
