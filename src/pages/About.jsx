@@ -38,7 +38,7 @@ function About() {
               </a>, fascinado por tecnologia e o modo ao qual lidamos com elas. 
             </p>
             <p>
-            
+              Atuei em um podcast sobre a cultura pop, conversando sobre vários assuntos de entretenimento e experiências vividas.
             </p>
             <Skills />
           </section>
