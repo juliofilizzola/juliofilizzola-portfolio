@@ -4,10 +4,15 @@
 
 .skills .skills-hard {
   margin: 1em 0;
-  gap: 1em;
 }
 
 .skills .skills-hard .languages {
-  font-size: 30px;
+  gap: 10px;
+  margin: 0.2em;
+  font-size: 60px;
+}
+
+.skills .skills-hard .languages:hover {
+  color: #03e9f4;
 }
 /*# sourceMappingURL=skills.css.map */

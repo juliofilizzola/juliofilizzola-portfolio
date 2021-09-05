@@ -3,9 +3,13 @@
   .skills-hard {
     margin: 1em 0;
 
-    gap: 1em;
     .languages {
-      font-size: 30px;
+      gap: 10px;
+      margin: 0.2em;
+      font-size: 60px;
+      &:hover {
+        color: #03e9f4;
+      }
     }
   }
 }
