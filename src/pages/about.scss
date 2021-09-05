@@ -5,51 +5,39 @@
     font-family: 'Source Code Pro', sans-serif;
     height: 100%;
     width: 90%;
-    padding: 15px;
-    gap: 15px;
+    padding: 0.9em;
+    gap: 0.9em;
     margin: 0 auto;
     display: flex;
 
-    .aTrybe {
-      text-decoration: none;
-      color: #fff;
-      font-weight: 200;
-      &:hover {
-        text-decoration: underline;
-        color: #03e9f4;
-      }
-    }
-
     img {
-      height: 320px;
-      width: 320px;
+      height: 15em;
+      width: 15em;
       margin: 15px 20px 0 0;
       border-radius: 50%;
     }
   
-    div {
-      margin-top: 35px;
-    
+    section {
+      margin-top: 3em;
+
       h1 {
-        margin-bottom: 45px;
+        margin-bottom: 1em;
       }
 
       p {
-        display: flex;
-        flex-direction: column;
+        margin: 1em 0 1em 0;
+      }
 
-        a {
-          margin-top: 10px;
-          text-decoration: none;
-          color: #fff;
-          font-weight: 200;
-
-          &:hover {
-            text-decoration: underline;
-            color: #03e9f4;
-          }
+      .aTrybe {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 200;
+        &:hover {
+          text-decoration: underline;
+          color: #03e9f4;
         }
       }
+
     }
   }
 }
