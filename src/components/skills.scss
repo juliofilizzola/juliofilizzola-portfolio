@@ -1,0 +1,11 @@
+.skills {
+  margin: 0.3125em 0 2.500em 0;
+  .skills-hard {
+    margin: 1em 0;
+
+    gap: 1em;
+    .languages {
+      font-size: 30px;
+    }
+  }
+}

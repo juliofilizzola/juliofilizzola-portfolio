@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=skills.css.map */
+.skills {
+  margin: 0.3125em 0 2.500em 0;
+}
+
+.skills .skills-hard {
+  margin: 1em 0;
+  gap: 1em;
+}
+
+.skills .skills-hard .languages {
+  font-size: 30px;
+}
+/*# sourceMappingURL=skills.css.map */

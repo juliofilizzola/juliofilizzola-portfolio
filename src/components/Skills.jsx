@@ -3,16 +3,17 @@ import './skills.css';
 import {DiHtml5, 
   DiCss3, DiGit, DiGithubBadge, DiReact, DiSass, DiNpm, DiUbuntu, DiJsBadge, DiTerminal} from "react-icons/di";
 
+
 function Skills() {
    
   return (
     <div>
       <div className="skills">
-        <h1>Minhas Hards Skills</h1>
+        <h2>Minhas Hards Skills</h2>
 
         <div className="skills-hard">
-          <h1>Languages</h1>
-          <div>
+          <h3>Languages</h3>
+          <div className="languages">
             <DiJsBadge />
             <DiHtml5 />
             <DiCss3 />
