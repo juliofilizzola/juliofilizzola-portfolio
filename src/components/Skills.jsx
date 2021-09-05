@@ -25,7 +25,7 @@ function Skills() {
         
 
           <h2> Frameworks</h2>
-          <div>
+          <div className="Frameworks">
             <DiGithubBadge />
             <DiTerminal />
             <DiUbuntu/>
