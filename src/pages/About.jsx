@@ -38,7 +38,7 @@ function About() {
               </a>, fascinado por tecnologia e o modo ao qual lidamos com elas. 
             </p>
             <p>
-
+            
             </p>
             <Skills />
           </section>
