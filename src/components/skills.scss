@@ -25,5 +25,14 @@
         color: #03e9f4;
       }
     }
+    .Others {
+      margin: 0.3125em 0;
+      display: flex;
+      gap: 1em;
+      font-size: 60px;
+      &:hover {
+        color: #03e9f4;
+      }
+    }
   }
 }

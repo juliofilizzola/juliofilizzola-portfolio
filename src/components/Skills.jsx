@@ -1,6 +1,7 @@
 import React from "react";
 import './skills.css';
 import {DiHtml5, 
+  DiBootstrap,
   DiCss3, DiGit, DiGithubBadge, DiReact, DiSass, DiNpm, DiUbuntu, DiJsBadge, DiTerminal} from "react-icons/di";
 
 
@@ -12,7 +13,7 @@ function Skills() {
         <h2>Minhas Hards Skills</h2>
 
         <div className="skills-hard">
-          <h3>Languages</h3>
+          <h3>Linguagens</h3>
           <div className="languages">
             <DiJsBadge />
             <DiHtml5 />
@@ -24,15 +25,24 @@ function Skills() {
         <div className="skills-hard-frameworks">
         
 
-          <h2> Frameworks</h2>
+          <h2>Frameworks</h2>
           <div className="Frameworks">
-            <DiGithubBadge />
-            <DiTerminal />
-            <DiUbuntu/>
             <DiReact />
+            <DiBootstrap />
             <DiSass />
+          </div>
+        </div>
+        <div className="skills-hard-frameworks">
+        
+
+          <h2>Outros</h2>
+          <div className="Others">
+
+            <DiTerminal />
             <DiNpm />
             <DiGit />
+            <DiGithubBadge />
+            <DiUbuntu/>
           </div>
         </div>
       </div>
