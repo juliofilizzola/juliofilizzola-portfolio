@@ -140,7 +140,7 @@
         gap: 5px;
         .img-projects {
           transition: 3s;
-          opacity: 0%;
+          filter: opacity(100%);
           width: 300px;
           height: 300px;
         }
