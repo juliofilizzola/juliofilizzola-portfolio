@@ -139,10 +139,14 @@
         display: flex;
         gap: 5px;
         .img-projects {
-          transition: 2s;
-          opacity: 0%;
+          transition: 3s;
+          filter: opacity(0%);
           width: 300px;
           height: 300px;
+        }
+
+        &:hover .img-projects {
+          filter: opacity(100%)
         }
   
         .text_Container {
@@ -166,11 +170,6 @@
           }
         }
       
-      }
-      .containerProject:hover .img-projects{
-        opacity: 100%;
-        width: 300px;
-        height: 300px;
       }
     }
 }
