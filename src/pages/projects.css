@@ -214,7 +214,8 @@
 }
 
 .project-container .Project .containerProject:hover .img-projects {
-  opacity: 100%;
+  -webkit-filter: opacity(100%);
+          filter: opacity(100%);
 }
 
 .project-container .Project .containerProject .text_Container {
