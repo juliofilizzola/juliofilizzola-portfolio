@@ -194,6 +194,7 @@
   .project-container .Project .containerProject .img-projects {
     -webkit-filter: opacity(100%);
             filter: opacity(100%);
+    margin: 0 auto;
     width: 15em;
     height: 15em;
   }
