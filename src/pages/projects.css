@@ -1,6 +1,7 @@
 @media (max-width: 600px) {
   .project-container {
     font-family: 'Source Code Pro', sans-serif;
+    font-size: 1em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -173,8 +174,11 @@
     }
   }
   .project-container .Project {
-    margin: 2em auto;
-    width: 80%;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .project-container .Project .h3Project {
+    margin-left: 12px;
   }
   .project-container .Project .containerProject {
     padding: 1em;
@@ -218,7 +222,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   .project-container {
     font-family: 'Source Code Pro', sans-serif;
     display: -webkit-box;
