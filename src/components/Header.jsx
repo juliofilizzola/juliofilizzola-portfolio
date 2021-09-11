@@ -1,11 +1,24 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
 
 function Header() {
+  const[toggle, setToggle] = React.useState(false);
   return (
     <header>
       <p className="text">Julio Filizzola</p>
-      <div className="container">
+      <button 
+        onClick={() => setToggle(!toggle)}
+        className="btn-menu"
+      >
+      <span></span>
+      <span></span>
+      Menu
+      <span></span>
+      <span></span>
+      </button>
+      
+      <div className={ toggle? "container" : "activeContainer"}>
         
         <Link to="/">
           <span></span>
