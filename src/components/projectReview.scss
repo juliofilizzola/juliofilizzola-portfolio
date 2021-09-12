@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 699px) {
   .projectReview {
     font-family: 'Source Code Pro', sans-serif;
     width: 80%;
@@ -14,10 +14,6 @@
         text-decoration: none;
         color: #fff;
         font-weight: 200;
-        &:hover {
-          text-decoration: underline;
-          color: #03e9f4;
-        }
       }
     }
   }
