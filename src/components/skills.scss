@@ -28,6 +28,7 @@
     .Others {
       margin: 0.3125em 0;
       display: flex;
+      flex-wrap: wrap;
       gap: 1em;
       font-size: 60px;
       &:hover {

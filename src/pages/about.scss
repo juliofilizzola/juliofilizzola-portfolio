@@ -1,43 +1,94 @@
-.aboutALL {
-  margin: 0.3125em 0 2.500em 0;
+@media (max-width: 600px) {
+  .aboutALL {
+    margin: 0.3125em 0 2.500em 0;
+    
+    .aboutContainer {
+      font-family: 'Source Code Pro', sans-serif;
+      height: 100%;
+      width: 90%;
+      padding: 0.9em;
+      gap: 0.9em;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
   
-  .aboutContainer {
-    font-family: 'Source Code Pro', sans-serif;
-    height: 100%;
-    width: 90%;
-    padding: 0.9em;
-    gap: 0.9em;
-    margin: 0 auto;
-    display: flex;
-
-    img {
-      height: 15em;
-      width: 15em;
-      margin: 0.9em 1em 0 0;
-      border-radius: 50%;
-    }
+      img {
+        height: 15em;
+        width: 15em;
+        margin: 0 auto;
+        border-radius: 50%;
+      }
+    
+      section {
+        margin-top: 3em;
   
-    section {
-      margin-top: 3em;
-
-      h1 {
-        margin-bottom: 1em;
-      }
-
-      p {
-        margin: 1em 0 1em 0;
-      }
-
-      .aTrybe {
-        text-decoration: none;
-        color: #fff;
-        font-weight: 200;
-        &:hover {
-          text-decoration: underline;
-          color: #03e9f4;
+        h1 {
+          margin-bottom: 1em;
         }
+  
+        p {
+          margin: 1em 0 1em 0;
+        }
+  
+        .aTrybe {
+          text-decoration: none;
+          color: #fff;
+          font-weight: 200;
+          &:hover {
+            text-decoration: underline;
+            color: #03e9f4;
+          }
+        }
+  
       }
-
     }
   }
+  
+}
+
+@media (min-width: 700px) {
+  .aboutALL {
+    margin: 0.3125em 0 2.500em 0;
+    
+    .aboutContainer {
+      font-family: 'Source Code Pro', sans-serif;
+      height: 100%;
+      width: 90%;
+      padding: 0.9em;
+      gap: 0.9em;
+      margin: 0 auto;
+      display: flex;
+  
+      img {
+        height: 15em;
+        width: 15em;
+        margin: 0.9em 1em 0 0;
+        border-radius: 50%;
+      }
+    
+      section {
+        margin-top: 3em;
+  
+        h1 {
+          margin-bottom: 1em;
+        }
+  
+        p {
+          margin: 1em 0 1em 0;
+        }
+  
+        .aTrybe {
+          text-decoration: none;
+          color: #fff;
+          font-weight: 200;
+          &:hover {
+            text-decoration: underline;
+            color: #03e9f4;
+          }
+        }
+  
+      }
+    }
+  }
+  
 }
