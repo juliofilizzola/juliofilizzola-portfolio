@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './header.css';
 
 function Header() {
-  const[toggle, setToggle] = React.useState(false);
+  const[toggle, setToggle] = React.useState(true);
   return (
     <header>
       <p className="text">Julio Filizzola</p>
