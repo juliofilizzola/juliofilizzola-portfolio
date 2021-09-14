@@ -61,3 +61,11 @@ $ npm start
 Por conta de algum bug ao não consegui postar o portfólio utilizando o SASS.
 
 Utilizei um método para converter os arquivos SASS em arquivos CSS.
+
+Instale a instenção do Vscode Live Sass Compiler
+
+<p align="center">
+  <img height="200"src="./src/image/README/Live.gif">
+</p>
+
+No arquivo SASS clique em Watch my Sass, ele vai criar os arquivos CSS, e isso também permite continuar usando o arquivo SASS.
