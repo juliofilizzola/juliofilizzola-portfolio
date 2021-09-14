@@ -56,3 +56,8 @@ $ npm install
 $ npm start
 
 ```
+
+## **Note**:
+Por conta de algum bug ao não consegui postar o portfólio utilizando o SASS.
+
+Utilizei um método para converter os arquivos SASS em arquivos CSS.
