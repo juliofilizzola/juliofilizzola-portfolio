@@ -9,6 +9,12 @@ Atualmente ele está ospedado no Netlify.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/43b22bea-1d2a-4a08-aa74-4d30aa6d9006/deploy-status)](https://app.netlify.com/sites/juliofilizzola/deploys)
 
+## Campos de Destaque
+- Home
+- Sobre
+- Projetos
+- Contato
+
 ## Previsualização
 
   ### Versão Web
