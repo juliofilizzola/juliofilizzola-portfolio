@@ -11,3 +11,13 @@ Atualmente ele está ospedado no Netlify.
 
 ## Previsualização
 
+  ### Versão Web
+  <p align="center">
+    <img height="200"src="./src/image/README/portWeb.gif">
+  </p>
+
+  ### Versão Mobile
+
+  <p align="center">
+    <img height="300"src="./src/image/README/Portfólio.gif">
+  </p>
