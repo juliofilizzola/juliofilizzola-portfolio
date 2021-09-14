@@ -27,3 +27,32 @@ Atualmente ele está ospedado no Netlify.
   <p align="center">
     <img height="300"src="./src/image/README/Portfólio.gif">
   </p>
+
+
+## Como usar
+Use esses comandos para clonar o Repositorio:
+
+```
+# Clone esse repositorio
+$ git clone git@github.com:juliofilizzola/juliofilizzola-portfolio.git
+
+# Entre no diretorio
+$ cd juliofilizzola-portfolio
+
+# Remover o repositório de origem atual
+$ git remote remove origin
+```
+
+### Instalando dependencias
+
+
+```
+# Instalando dependencias
+
+$ npm install
+
+# Inicie o servidor de desenvolvimento
+
+$ npm start
+
+```
