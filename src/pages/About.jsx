@@ -35,7 +35,10 @@ function About() {
                 rel="noreferrer"
               >
                 Trybe
-              </a>, fascinado por tecnologia e o modo ao qual lidamos com elas. 
+              </a>, fascinado por tecnologia e o modo ao qual lidamos com elas. Gosto bastante de ficção cientifica e suas complexidades: Amo Café ☕!
+            </p>
+            <p>
+              Me especializando no Front End, mas não deixando de ver o Backend
             </p>
             <p>
               Atuei em um podcast sobre a cultura pop, conversando sobre vários assuntos de entretenimento e experiências vividas.
