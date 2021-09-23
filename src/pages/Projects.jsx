@@ -93,10 +93,11 @@ function Projects() {
             <h3 className="h3Project">LetMeAsk</h3>
             <div className="containerProject">
               <div className="text_Container">
-                <p>O Shopping Cart foi um porjeto que foi feito baseado em um projeto da Trybe, do modulo de front-end. Consiste na manipulação de informações provinientes de uma API do Mercado Livre.
+                <p>
+                  Projeto feito na Next Level Week da Rocketseat, foi uma semana imersiva de React que abordou os conceitos de React, useContext, Hooks e ligação com servidor do Firebase.  
                 </p>
                 <p>
-                  Esse projeto foi feito em React, usando as tecnologias: React Router Dom, React Redux e Bootstrap.
+                  Esse projeto foi feito em React, usando as tecnologias: React Router Dom, useContext, SASS, Hooks e Firebase.
                   <a href="https://github.com/juliofilizzola/letmeask" className="link_git" target="_blank" rel="noreferrer" >Link do Repositorio <DiGithubBadge /></a>
                 </p>
               </div>
