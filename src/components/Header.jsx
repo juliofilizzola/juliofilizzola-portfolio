@@ -3,7 +3,20 @@ import { Link } from 'react-router-dom';
 import './header.css';
 
 function Header() {
-  const[toggle, setToggle] = React.useState(true);
+  const MaxWidth = 700;
+  const [width, setWidth] = React.useState(window.innerWidth);
+  const [toggle, setToggle] = React.useState(true);
+
+  React.useEffect(() => {
+    window.addEventListener("resize", () => {
+      setWidth(window.innerWidth);
+    });
+    if (width >= MaxWidth) {
+      setToggle(true);
+    }
+  },[width]);
+
+
   return (
     <header>
       <p className="text">Julio Filizzola</p>
