@@ -7,6 +7,12 @@ import contactIcon from "../image/contact.png"
 import './contacts.css';
 
 function Contacts() {
+  const [getName, setGetName] = React.useState('');
+  const [getEmail, setGetEmail] = React.useState('');
+  const [getSubject, setGetSubject] = React.useState('');
+
+
+  const [disabled, setDisabled] = React.useState(true);
   const location = useLocation();
   
   React.useEffect(() => {
@@ -16,6 +22,15 @@ function Contacts() {
     }
   });
 
+  const verifyMessages = () => {
+    if(getName.trim() && getEmail.trim() && getSubject.trim() ) {
+      setDisabled(false);
+    }
+  }
+
+  React.useEffect(() => {
+    verifyMessages();
+  });
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -86,26 +101,31 @@ function Contacts() {
         </div> 
         <div className="container-contact-forms">
           <div className="separator">Ou me mande um email</div>
-          <form action="" className="forms" onSubmit={sendEmail}>
+          <form action="" className="forms" onSubmit={() => disabled && sendEmail}>
             <label htmlFor="name">
-              <input type="text" name="name"  placeholder="Seu nome"/>
+              <input type="text" name="name"  placeholder="Seu nome"
+              onChange={({target})=> setGetName(target.value)}
+              />
             </label>
             <label htmlFor="email">
-              <input type="text" name="email" placeholder="Seu email"/>
+              <input type="text" name="email" placeholder="Seu email"
+              onChange={({target}) => setGetEmail(target.value)}
+              />
             </label>
             <label htmlFor="subject">
               <input type="text" name="subject" placeholder="Assunto"/>
             </label>
             <label htmlFor="massage">
-              <textarea name="massage" cols="30" placeholder="Sua mensagem" rows="10"/>
+              <textarea name="massage" cols="30" placeholder="Sua mensagem" rows="10" 
+              onChange={({target}) => setGetSubject(target.value)}/>
             </label>
-            <button type="submit">Enviar</button>
+            <button disabled={disabled} type="submit">Enviar</button>
           </form>
         </div>
       </div>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Contacts
+export default Contacts;
