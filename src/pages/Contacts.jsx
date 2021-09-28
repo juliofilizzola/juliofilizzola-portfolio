@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import contactIcon from "../image/contact.png";
-import './contacts.css';
+import './style/contacts/contacts.css';
 
 function Contacts() {
   const [getName, setGetName] = React.useState('');
