@@ -105,6 +105,22 @@ function Projects() {
             </div>
           </div>
 
+          <div className="Project">
+            <h3 className="h3Project">Clone Netflix</h3>
+            <div className="containerProject">
+              <img className="img-projects" src="https://user-images.githubusercontent.com/65046505/134977534-7f40d12b-c4e3-4603-867a-2dd572937bd7.png" alt='imagem do projeto' />
+              <div className="text_Container">
+                <p>
+                    Esse projeto é um clone da pagina inicial da Netflix. Ele foi feito com um tutorial, mas com algumas modificações. Deixando claro que todos o direitos são reservados a Netflix e os dados são proveniente do site
+                </p>
+                <p>
+                  Nesse projeto foi utilizado React, CSS e manipulação de API.
+                  <a href="https://github.com/juliofilizzola/clone-netflix" className="link_git" target="_blank" rel="noreferrer" >Link do Repositorio <DiGithubBadge /></a>
+                </p>
+              </div>
+            </div>
+          </div>
+
         </section>
       </div>
       <Footer />
