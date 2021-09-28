@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import contactIcon from "../image/contact.png"
+import contactIcon from "../image/contact.png";
 import './contacts.css';
 
 function Contacts() {
@@ -26,7 +26,7 @@ function Contacts() {
           console.log(error.text);
       });
       e.target.reset()
-  }
+  };
 
   return (
     <div>
@@ -105,7 +105,7 @@ function Contacts() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Contacts
+export default Contacts;
