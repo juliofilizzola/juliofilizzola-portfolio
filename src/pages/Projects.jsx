@@ -8,7 +8,7 @@ import ProjectsImg from '../image/project.png';
 import Avenges from "../image/avengers.png";
 import logo from "../image/logo.svg";
 import shoppingCart from "../image/shopping-cart.png";
-import './projects.css';
+import './style/projects/projects.css';
 
 function Projects() {
   const location = useLocation();
