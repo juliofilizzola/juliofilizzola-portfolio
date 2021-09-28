@@ -109,7 +109,7 @@ function Projects() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
