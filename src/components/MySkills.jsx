@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './mySkills.css';
+import "./style/MySkills/mySkills.css";
 
 function MySkills() {
   return (
