@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import contactIcon from "../image/contact.png"
+import contactIcon from "../image/contact.png";
 import './contacts.css';
 
 function Contacts() {
@@ -31,6 +31,7 @@ function Contacts() {
   React.useEffect(() => {
     verifyMessages();
   });
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -40,7 +41,7 @@ function Contacts() {
       }, (error) => {
           console.log(error.text);
       });
-      e.target.reset()
+      e.target.reset();
   }
 
   return (
