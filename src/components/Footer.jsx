@@ -1,7 +1,6 @@
 import { BsHeartFill } from 'react-icons/bs';
 import { DiSass, DiReact } from "react-icons/di";
-
-import './footer.css';
+import "./style/Footer/footer.css";
 
 function Footer() {
   return (

@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Skills from "../components/Skills";
 import AboutIcon from "../image/About.svg";
-import './about.css';
+import './style/about/about.css';
 
 function About() {
   const location = useLocation();
@@ -49,7 +49,7 @@ function About() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
