@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import contactIcon from "../image/contact.png";
 import './style/contacts/contacts.css';
+import SocialNetworks from "../components/SocialNetworks";
 
 function Contacts() {
   const [getName, setGetName] = React.useState('');
@@ -50,7 +51,7 @@ function Contacts() {
       <div className="container-contact">
         <h1>Contact Me</h1>
         <div className="contact">
-          
+          <SocialNetworks />
         </div> 
         <div className="container-contact-forms">
           <div className="separator">Ou me mande um email</div>
