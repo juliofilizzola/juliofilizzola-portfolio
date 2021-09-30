@@ -1,5 +1,6 @@
 import React from 'react';
 import "./style/Header/header.css";
+import ButtomMenu from "./ButtomMenu";
 
 function Header() {
   const MaxWidth = 700;
@@ -31,8 +32,7 @@ function Header() {
       </button>
       
       <div className={ toggle? "container" : "activeContainer"}>
-        
-        
+        <ButtomMenu />
       </div>
     </header>
   );
