@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import contactIcon from "../image/contact.png";
 import SocialNetworks from "../components/SocialNetworks";
-import SendEmail from "../Hooks/SendEmail";
+import emailjs from 'emailjs-com';
 import './style/contacts/contacts.css';
 
 function Contacts() {
@@ -20,12 +20,27 @@ function Contacts() {
       document.getElementById("favicon").href = contactIcon;
     }
   });
-
+  
   const verifyMessages = () => {
     if(getName.trim() && getEmail.trim() && getSubject.trim() ) {
       setDisabled(false);
     }
   }
+
+
+
+
+  const SendEmail = (e) => {
+    e.preventDefault();
+    console.log(e)
+    emailjs.sendForm('service_z050pzt', 'template_lf37z1n', e.target, 'user_KYJsNzAu6PTiq9l5r0vLd')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();  
+  };
 
   React.useEffect(() => {
     verifyMessages();
@@ -41,7 +56,7 @@ function Contacts() {
         </div> 
         <div className="container-contact-forms">
           <div className="separator">Ou me mande um email</div>
-          <form action="" className="forms" onSubmit={() => disabled && SendEmail}>
+          <form action="" className="forms" onSubmit={SendEmail}>
             <label htmlFor="name">
               <input type="text" name="name"  placeholder="Seu nome"
               onChange={({target})=> setGetName(target.value)}
@@ -53,7 +68,7 @@ function Contacts() {
               />
             </label>
             <label htmlFor="subject">
-              <input type="text" name="subject" placeholder="Assunto"/>
+              <input type="text" name="Subject" placeholder="Assunto"/>
             </label>
             <label htmlFor="massage">
               <textarea name="massage" cols="30" placeholder="Sua mensagem" rows="10" 
