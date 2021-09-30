@@ -1,17 +1,16 @@
 import React from "react";
 import { useLocation } from 'react-router-dom';
-import emailjs from 'emailjs-com';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import contactIcon from "../image/contact.png";
+import SocialNetworks from "../components/SocialNetworks";
+import emailjs from 'emailjs-com';
 import './style/contacts/contacts.css';
 
 function Contacts() {
   const [getName, setGetName] = React.useState('');
   const [getEmail, setGetEmail] = React.useState('');
   const [getSubject, setGetSubject] = React.useState('');
-
-
   const [disabled, setDisabled] = React.useState(true);
   const location = useLocation();
   
@@ -21,28 +20,31 @@ function Contacts() {
       document.getElementById("favicon").href = contactIcon;
     }
   });
-
+  
   const verifyMessages = () => {
     if(getName.trim() && getEmail.trim() && getSubject.trim() ) {
       setDisabled(false);
     }
   }
 
-  React.useEffect(() => {
-    verifyMessages();
-  });
 
-  const sendEmail = (e) => {
+
+
+  const SendEmail = (e) => {
     e.preventDefault();
-
+    console.log(e)
     emailjs.sendForm('service_z050pzt', 'template_lf37z1n', e.target, 'user_KYJsNzAu6PTiq9l5r0vLd')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
-      e.target.reset();
-  }
+      e.target.reset();  
+  };
+
+  React.useEffect(() => {
+    verifyMessages();
+  });
 
   return (
     <div>
@@ -50,59 +52,11 @@ function Contacts() {
       <div className="container-contact">
         <h1>Contact Me</h1>
         <div className="contact">
-
-          <a 
-            href="https://www.linkedin.com/in/julio-filizzola/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            LinkedIn
-          </a>
-          <a
-            href="https://www.instagram.com/juliofilizzola/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-
-            Instagram
-          </a>
-          <a
-            href="https://twitter.com/Juliofilizzola"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-
-            Twitter
-          </a>
-          <a
-            href="https://github.com/juliofilizzola"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-
-            Github
-          </a>
-
+          <SocialNetworks />
         </div> 
         <div className="container-contact-forms">
           <div className="separator">Ou me mande um email</div>
-          <form action="" className="forms" onSubmit={() => disabled && sendEmail}>
+          <form action="" className="forms" onSubmit={SendEmail}>
             <label htmlFor="name">
               <input type="text" name="name"  placeholder="Seu nome"
               onChange={({target})=> setGetName(target.value)}
