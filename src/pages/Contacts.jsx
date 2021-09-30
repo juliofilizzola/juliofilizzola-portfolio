@@ -1,18 +1,16 @@
 import React from "react";
 import { useLocation } from 'react-router-dom';
-import emailjs from 'emailjs-com';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import contactIcon from "../image/contact.png";
-import './style/contacts/contacts.css';
 import SocialNetworks from "../components/SocialNetworks";
+import SendEmail from "../Hooks/SendEmail";
+import './style/contacts/contacts.css';
 
 function Contacts() {
   const [getName, setGetName] = React.useState('');
   const [getEmail, setGetEmail] = React.useState('');
   const [getSubject, setGetSubject] = React.useState('');
-
-
   const [disabled, setDisabled] = React.useState(true);
   const location = useLocation();
   
@@ -33,18 +31,6 @@ function Contacts() {
     verifyMessages();
   });
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_z050pzt', 'template_lf37z1n', e.target, 'user_KYJsNzAu6PTiq9l5r0vLd')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset();
-  }
-
   return (
     <div>
       <Header />
@@ -55,7 +41,7 @@ function Contacts() {
         </div> 
         <div className="container-contact-forms">
           <div className="separator">Ou me mande um email</div>
-          <form action="" className="forms" onSubmit={() => disabled && sendEmail}>
+          <form action="" className="forms" onSubmit={() => disabled && SendEmail}>
             <label htmlFor="name">
               <input type="text" name="name"  placeholder="Seu nome"
               onChange={({target})=> setGetName(target.value)}
