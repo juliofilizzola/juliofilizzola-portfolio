@@ -68,7 +68,7 @@ function Contacts() {
               />
             </label>
             <label htmlFor="subject">
-              <input type="text" name="Subject" placeholder="Assunto"/>
+              <input type="text" name="subject" placeholder="Assunto"/>
             </label>
             <label htmlFor="massage">
               <textarea name="massage" cols="30" placeholder="Sua mensagem" rows="10" 
