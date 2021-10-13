@@ -1,8 +1,17 @@
 import React from "react";
-import './skills.css';
-import {DiHtml5, 
+import "./style/Skills/skills.css";
+import {
+  DiHtml5, 
   DiBootstrap,
-  DiCss3, DiGit, DiGithubBadge, DiReact, DiSass, DiNpm, DiUbuntu, DiJsBadge, DiTerminal} from "react-icons/di";
+  DiCss3, DiGit,
+  DiGithubBadge,
+  DiReact,
+  DiSass,
+  DiNpm,
+  DiUbuntu,
+  DiJsBadge,
+  DiTerminal
+} from "react-icons/di";
 
 
 function Skills() {

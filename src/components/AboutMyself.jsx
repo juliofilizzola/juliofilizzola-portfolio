@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './aboutMyself.css';
+import "./style/AboutMyself/aboutMyself.css";
 
 function AboutMyself() {
   return (
@@ -11,7 +11,7 @@ function AboutMyself() {
         <Link className="link_git" to='/about'>Para saber um pouco sobre mim...</Link>
       </p>
     </div>
-  )
+  );
 }
 
 export default AboutMyself;

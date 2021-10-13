@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './header.css';
+import "./style/Header/header.css";
 
 function Header() {
   const MaxWidth = 700;
