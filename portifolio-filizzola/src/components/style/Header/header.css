@@ -1,0 +1,460 @@
+@media (max-width: 699px) {
+  header {
+    width: 100%;
+    height: 80px;
+    font-family: 'Source Code Pro', sans-serif;
+    margin-top: 0;
+    padding: 1em;
+    letter-spacing: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #0D0D0D;
+    color: #fff;
+  }
+  header .btn-menu {
+    display: block;
+    background: #03e9f4;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  header .text {
+    border-right: 2px solid #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: blink 700ms steps(25) infinite normal, typing 2s steps(22) normal both;
+            animation: blink 700ms steps(25) infinite normal, typing 2s steps(22) normal both;
+  }
+  @-webkit-keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 14em;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 14em;
+    }
+  }
+  @-webkit-keyframes blink {
+    from {
+      border-right-color: #fff;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-right-color: #fff;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  header .activeContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #0D0D0D;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0;
+    gap: 20px;
+    height: 30vh;
+    -ms-flex-item-align: center;
+        align-self: center;
+    z-index: 1000;
+  }
+  header .activeContainer > a {
+    position: relative;
+    display: inline-block;
+    padding: 2px 3px;
+    margin: 4px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  header .activeContainer a:hover {
+    background: #03e9f4;
+    border: 1px solid #03e9f4;
+    color: #050801;
+    -webkit-box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4;
+            box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  }
+  header .activeContainer a:nth-child(1) {
+    -webkit-filter: hue-rotate(270deg);
+            filter: hue-rotate(270deg);
+  }
+  header .activeContainer a:nth-child(2) {
+    -webkit-filter: hue-rotate(110deg);
+            filter: hue-rotate(110deg);
+  }
+  header .activeContainer a span {
+    position: absolute;
+    display: block;
+  }
+  header .activeContainer a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(transparent), to(#03e9f4));
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    -webkit-animation: animate1 1s linear infinite;
+            animation: animate1 1s linear infinite;
+  }
+  @-webkit-keyframes animate1 {
+    0% {
+      left: -100%;
+    }
+    50%, 100% {
+      left: 100%;
+    }
+  }
+  @keyframes animate1 {
+    0% {
+      left: -100%;
+    }
+    50%, 100% {
+      left: 100%;
+    }
+  }
+  header .activeContainer a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#03e9f4));
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    -webkit-animation: animate2 1s linear infinite;
+            animation: animate2 1s linear infinite;
+    -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+  }
+  @-webkit-keyframes animate2 {
+    0% {
+      top: -100%;
+    }
+    50%, 100% {
+      top: 100%;
+    }
+  }
+  @keyframes animate2 {
+    0% {
+      top: -100%;
+    }
+    50%, 100% {
+      top: 100%;
+    }
+  }
+  header .activeContainer a span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, right top, left top, from(transparent), to(#03e9f4));
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    -webkit-animation: animate3 1s linear infinite;
+            animation: animate3 1s linear infinite;
+    -webkit-animation-delay: 0.50s;
+            animation-delay: 0.50s;
+  }
+  @-webkit-keyframes animate3 {
+    0% {
+      right: -100%;
+    }
+    50%, 100% {
+      right: 100%;
+    }
+  }
+  @keyframes animate3 {
+    0% {
+      right: -100%;
+    }
+    50%, 100% {
+      right: 100%;
+    }
+  }
+  header .activeContainer a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, from(transparent), to(#03e9f4));
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    -webkit-animation: animate4 1s linear infinite;
+            animation: animate4 1s linear infinite;
+    -webkit-animation-delay: 0.75s;
+            animation-delay: 0.75s;
+  }
+  @-webkit-keyframes animate4 {
+    0% {
+      bottom: -100%;
+    }
+    50%, 100% {
+      bottom: 100%;
+    }
+  }
+  @keyframes animate4 {
+    0% {
+      bottom: -100%;
+    }
+    50%, 100% {
+      bottom: 100%;
+    }
+  }
+  header .container {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  header {
+    width: 100%;
+    height: 80px;
+    font-family: 'Source Code Pro', sans-serif;
+    margin-top: 0;
+    padding: 1em;
+    letter-spacing: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  header .btn-menu {
+    display: none;
+  }
+  header .text {
+    border-right: 2px solid #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: blink 700ms steps(25) infinite normal, typing 2s steps(22) normal both;
+            animation: blink 700ms steps(25) infinite normal, typing 2s steps(22) normal both;
+  }
+  @-webkit-keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 14em;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 14em;
+    }
+  }
+  @-webkit-keyframes blink {
+    from {
+      border-right-color: #fff;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-right-color: #fff;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  header .container > a {
+    position: relative;
+    display: inline-block;
+    padding: 2px 3px;
+    margin: 4px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 5px;
+  }
+  header .container a:hover {
+    background: #03e9f4;
+    border: 1px solid #03e9f4;
+    color: #050801;
+    -webkit-box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4;
+            box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  }
+  header .container a:nth-child(1) {
+    -webkit-filter: hue-rotate(270deg);
+            filter: hue-rotate(270deg);
+  }
+  header .container a:nth-child(2) {
+    -webkit-filter: hue-rotate(110deg);
+            filter: hue-rotate(110deg);
+  }
+  header .container a span {
+    position: absolute;
+    display: block;
+  }
+  header .container a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(transparent), to(#03e9f4));
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    -webkit-animation: animate1 1s linear infinite;
+            animation: animate1 1s linear infinite;
+  }
+  @-webkit-keyframes animate1 {
+    0% {
+      left: -100%;
+    }
+    50%, 100% {
+      left: 100%;
+    }
+  }
+  @keyframes animate1 {
+    0% {
+      left: -100%;
+    }
+    50%, 100% {
+      left: 100%;
+    }
+  }
+  header .container a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#03e9f4));
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    -webkit-animation: animate2 1s linear infinite;
+            animation: animate2 1s linear infinite;
+    -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+  }
+  @-webkit-keyframes animate2 {
+    0% {
+      top: -100%;
+    }
+    50%, 100% {
+      top: 100%;
+    }
+  }
+  @keyframes animate2 {
+    0% {
+      top: -100%;
+    }
+    50%, 100% {
+      top: 100%;
+    }
+  }
+  header .container a span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, right top, left top, from(transparent), to(#03e9f4));
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    -webkit-animation: animate3 1s linear infinite;
+            animation: animate3 1s linear infinite;
+    -webkit-animation-delay: 0.50s;
+            animation-delay: 0.50s;
+  }
+  @-webkit-keyframes animate3 {
+    0% {
+      right: -100%;
+    }
+    50%, 100% {
+      right: 100%;
+    }
+  }
+  @keyframes animate3 {
+    0% {
+      right: -100%;
+    }
+    50%, 100% {
+      right: 100%;
+    }
+  }
+  header .container a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, from(transparent), to(#03e9f4));
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    -webkit-animation: animate4 1s linear infinite;
+            animation: animate4 1s linear infinite;
+    -webkit-animation-delay: 0.75s;
+            animation-delay: 0.75s;
+  }
+  @-webkit-keyframes animate4 {
+    0% {
+      bottom: -100%;
+    }
+    50%, 100% {
+      bottom: 100%;
+    }
+  }
+  @keyframes animate4 {
+    0% {
+      bottom: -100%;
+    }
+    50%, 100% {
+      bottom: 100%;
+    }
+  }
+}
+/*# sourceMappingURL=header.css.map */

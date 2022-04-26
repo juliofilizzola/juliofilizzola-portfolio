@@ -1,0 +1,53 @@
+.skills {
+  margin: 0.3125em 0 2.500em 0;
+}
+
+.skills .skills-hard {
+  margin: 1em 0;
+}
+
+.skills .skills-hard .languages {
+  margin: 0.3125em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  font-size: 60px;
+}
+
+.skills .skills-hard .languages:hover {
+  color: #03e9f4;
+}
+
+.skills .skills-hard-frameworks {
+  margin: 1em 0;
+}
+
+.skills .skills-hard-frameworks .Frameworks {
+  margin: 0.3125em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  font-size: 60px;
+}
+
+.skills .skills-hard-frameworks .Frameworks:hover {
+  color: #03e9f4;
+}
+
+.skills .skills-hard-frameworks .Others {
+  margin: 0.3125em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1em;
+  font-size: 60px;
+}
+
+.skills .skills-hard-frameworks .Others:hover {
+  color: #03e9f4;
+}
+/*# sourceMappingURL=skills.css.map */
