@@ -1,10 +1,10 @@
-import React from "react";
-import { useLocation } from 'react-router-dom';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import contactIcon from "../image/contact.png";
-import SocialNetworks from "../components/SocialNetworks";
-import emailjs from 'emailjs-com';
+import SocialNetworks from "../components/SocialNetwork";
+import React from "react";
+import { useLocation } from 'react-router-dom';
+// import contactIcon from "../image/contact.png";
+// import emailjs from 'emailjs-com';
 import './style/contacts/contacts.css';
 
 function Contacts() {
@@ -13,33 +13,30 @@ function Contacts() {
   const [getSubject, setGetSubject] = React.useState('');
   const [disabled, setDisabled] = React.useState(true);
   const location = useLocation();
-  
+
   React.useEffect(() => {
     if (location.pathname === '/contacts'){
       document.title='Contato';
-      document.getElementById("favicon").href = contactIcon;
+      // document.getElementById("favicon").href = contactIcon;
     }
   });
-  
+
   const verifyMessages = () => {
     if(getName.trim() && getEmail.trim() && getSubject.trim() ) {
       setDisabled(false);
     }
   }
 
-
-
-
-  const SendEmail = (e) => {
-    e.preventDefault();
-    console.log(e)
-    emailjs.sendForm('service_z050pzt', 'template_lf37z1n', e.target, 'user_KYJsNzAu6PTiq9l5r0vLd')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset();  
+  const SendEmail = () => {
+    // e.preventDefault();
+    console.log('e')
+    // emailjs.sendForm('service_z050pzt', 'template_lf37z1n', e.target, 'user_KYJsNzAu6PTiq9l5r0vLd')
+    //   .then((result) => {
+    //       console.log(result.text);
+    //   }, (error) => {
+    //       console.log(error.text);
+    //   });
+    //   e.target.reset();
   };
 
   React.useEffect(() => {
@@ -53,7 +50,7 @@ function Contacts() {
         <h1>Contact Me</h1>
         <div className="contact">
           <SocialNetworks />
-        </div> 
+        </div>
         <div className="container-contact-forms">
           <div className="separator">Ou me mande um email</div>
           <form action="" className="forms" onSubmit={SendEmail}>
@@ -71,7 +68,7 @@ function Contacts() {
               <input type="text" name="subject" placeholder="Assunto"/>
             </label>
             <label htmlFor="massage">
-              <textarea name="massage" cols="30" placeholder="Sua mensagem" rows="10" 
+              <textarea name="massage" placeholder="Sua mensagem"
               onChange={({target}) => setGetSubject(target.value)}/>
             </label>
             <button disabled={disabled} type="submit">Enviar</button>

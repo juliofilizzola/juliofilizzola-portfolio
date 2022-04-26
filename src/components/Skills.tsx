@@ -1,7 +1,7 @@
 import React from "react";
-import "./style/Skills/skills.css";
+// import "./style/Skills/skills.css";
 import {
-  DiHtml5, 
+  DiHtml5,
   DiBootstrap,
   DiCss3, DiGit,
   DiGithubBadge,
@@ -15,7 +15,7 @@ import {
 
 
 function Skills() {
-   
+
   return (
     <div>
       <div className="skills">
@@ -32,7 +32,7 @@ function Skills() {
         </div>
 
         <div className="skills-hard-frameworks">
-        
+
 
           <h2>Frameworks</h2>
           <div className="Frameworks">
@@ -42,7 +42,7 @@ function Skills() {
           </div>
         </div>
         <div className="skills-hard-frameworks">
-        
+
 
           <h2>Outros</h2>
           <div className="Others">

@@ -20,7 +20,7 @@ function Header() {
   return (
     <header>
       <p className="text">Julio Filizzola</p>
-      <button 
+      <button
         onClick={() => setToggle(!toggle)}
         className="btn-menu"
       >
@@ -30,7 +30,7 @@ function Header() {
       <span></span>
       <span></span>
       </button>
-      
+
       <div className={ toggle? "container" : "activeContainer"}>
         <ButtomMenu />
       </div>

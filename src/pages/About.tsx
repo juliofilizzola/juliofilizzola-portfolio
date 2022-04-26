@@ -1,21 +1,25 @@
-import React from "react";
-import { useLocation } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Skills from "../components/Skills";
-import AboutIcon from "../image/About.svg";
+import React from "react";
+import { useLocation } from "react-router-dom";
+// import AboutIcon from '../image/About.svg';
+
 import './style/about/about.css';
 
 function About() {
   const location = useLocation();
-  
+
   React.useEffect(() => {
     if (location.pathname === '/about'){
       document.title='Sobre';
-      document.getElementById("favicon").href = AboutIcon;
+      // if (document.getElementById('favicon').innerHTML) {
+
+      //   // document.getElementById("favicon"). = AboutIcon;
+      // }
+
     }
   });
-  
+
   return (
     <div>
       <Header />
@@ -30,7 +34,7 @@ function About() {
               Olá, sou Julio Filizzola, tenho 25 anos. Sou estudante de Web Developer na <a
                 className="aTrybe"
                 href="https://www.betrybe.com/"
-                alt="Link para o site da trybe"
+                // alt="Link para o site da trybe"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -43,7 +47,7 @@ function About() {
             <p>
               Atuei em um podcast sobre a cultura pop, conversando sobre vários assuntos de entretenimento e experiências vividas.
             </p>
-            <Skills />
+            {/* <Skills /> */}
           </section>
         </div>
       </div>

@@ -1,14 +1,14 @@
 import React from 'react';
 import { DiGithubBadge } from 'react-icons/di';
 import { useLocation } from 'react-router-dom';
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import Todo from '../image/todoList.png';
-import ProjectsImg from '../image/project.png';
+// import ProjectsImg from '../image/project.png';
 import Avenges from "../image/avengers.png";
 import logo from "../image/logo.svg";
 import shoppingCart from "../image/shopping-cart.png";
 import './style/projects/projects.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function Projects() {
   const location = useLocation();
@@ -16,7 +16,7 @@ function Projects() {
   React.useEffect(() => {
     if (location.pathname === '/projects') {
       document.title = 'Projects';
-      document.getElementById("favicon").href = ProjectsImg;
+      // document.getElementById("favicon").href = ProjectsImg;
     }
   });
 
@@ -94,7 +94,7 @@ function Projects() {
             <div className="containerProject">
               <div className="text_Container">
                 <p>
-                  Projeto feito na Next Level Week da Rocketseat, foi uma semana imersiva de React que abordou os conceitos de React, useContext, Hooks e ligação com servidor do Firebase.  
+                  Projeto feito na Next Level Week da Rocketseat, foi uma semana imersiva de React que abordou os conceitos de React, useContext, Hooks e ligação com servidor do Firebase.
                 </p>
                 <p>
                   Esse projeto foi feito em React, usando as tecnologias: React Router Dom, useContext, SASS, Hooks e Firebase.
