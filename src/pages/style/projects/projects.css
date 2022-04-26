@@ -47,8 +47,10 @@
     background: #03e9f4;
     border: 0.1px solid #03e9f4;
     color: #050801;
-    -webkit-box-shadow: 0 0 5px #03e9f4, 0 0 2px #03e9f4;
-            box-shadow: 0 0 5px #03e9f4, 0 0 2px #03e9f4;
+    -webkit-box-shadow: 0 0 5px #03e9f4,
+ 0 0 2px #03e9f4;
+            box-shadow: 0 0 5px #03e9f4,
+ 0 0 2px #03e9f4;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
   }
   .project-container main > p a:nth-child(1) {
@@ -271,8 +273,10 @@
     background: #03e9f4;
     border: 0.1px solid #03e9f4;
     color: #050801;
-    -webkit-box-shadow: 0 0 5px #03e9f4, 0 0 2px #03e9f4;
-            box-shadow: 0 0 5px #03e9f4, 0 0 2px #03e9f4;
+    -webkit-box-shadow: 0 0 5px #03e9f4,
+ 0 0 2px #03e9f4;
+            box-shadow: 0 0 5px #03e9f4,
+ 0 0 2px #03e9f4;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
   }
   .project-container > main > p a:nth-child(1) {
@@ -444,4 +448,3 @@
     color: #03e9f4;
   }
 }
-/*# sourceMappingURL=projects.css.map */
