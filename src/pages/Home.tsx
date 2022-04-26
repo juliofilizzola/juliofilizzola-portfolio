@@ -1,7 +1,6 @@
 import AboutMyself from "../components/AboutMyself";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import ProjectReview from "../components/ProjectReview";
 import React from "react";
 import { useLocation } from 'react-router-dom';
 
@@ -22,7 +21,6 @@ function Home() {
     <div>
       <Header />
       <AboutMyself />
-      <ProjectReview />
       <Footer />
     </div>
   );
