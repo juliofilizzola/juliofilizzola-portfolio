@@ -1,0 +1,15 @@
+{
+  "projects": [{
+    "project": "To-do List",
+    "url": "https://github.com/juliofilizzola/Project-to-do-list",
+    "aboutProject": "O To-do List é o primeiro projeto pessoal usando React, fiz quando comecei o modulo de Front-end na Trybe. Esse projeto foi feito em React, usando as tecnologias: de React Router Dom, React Redux e foi estilizado usando CSS.",
+    "imageSource": "todoList.png"
+  },
+  {
+    "project": "To-do List",
+    "url": "https://github.com/juliofilizzola/Project-to-do-list",
+    "aboutProject": "O To-do List é o primeiro projeto pessoal usando React, fiz quando comecei o modulo de Front-end na Trybe. Esse projeto foi feito em React, usando as tecnologias: de React Router Dom, React Redux e foi estilizado usando CSS.",
+    "imageSource": "shopping-cart.png"
+  }
+  ]
+}
