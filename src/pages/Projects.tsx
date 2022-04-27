@@ -1,31 +1,61 @@
 import React from 'react';
 import { DiGithubBadge } from 'react-icons/di';
 import { useLocation } from 'react-router-dom';
-import Todo from '../image/todoList.png';
+// import Todo from '../image/todoList.png';
 // import ProjectsImg from '../image/project.png';
-import Avenges from "../image/avengers.png";
-import logo from "../image/logo.svg";
-import shoppingCart from "../image/shopping-cart.png";
+// import Avenges from "../image/avengers.png";
+// import logo from "../image/logo.svg";
+// import shoppingCart from "../image/shopping-cart.png";
 import './style/projects/projects.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import context from './context.json';
 
 function Projects() {
   const location = useLocation();
+  const [projectItens, setProjectItens] = React.useState<any>([]);
 
   React.useEffect(() => {
+
     if (location.pathname === '/projects') {
       document.title = 'Projects';
       // document.getElementById("favicon").href = ProjectsImg;
     }
   });
+  React.useEffect(() => {
+    setProjectItens([...context.projects]);
+  }, []);
 
   return (
     <div className="pageProjects">
       <Header />
 
       <div className="project-container">
-        <main>
+
+        {
+          projectItens ?
+            projectItens.map((value: any) => (
+            <>
+            <div className="Project">
+            <h3 className="h3Project">{value.aboutProject}</h3>
+            <div className="containerProject">
+              <img className="img-projects" src={require('../image/' + value.imageSource)} alt='imagem do projeto' />
+              <div className="text_Container">
+                <p>
+                  {value.aboutProject}
+                </p>
+                <p>
+                  Esse projeto foi feito em React, usando as tecnologias: de React Router Dom, React Redux e foi estilizado usando CSS.
+                  <a href={value.url} className="link_git" target="_blank" rel="noreferrer" >Link do Repositorio <DiGithubBadge /></a>
+                </p>
+              </div>
+              </div>
+            </div>
+            </>
+          )) :
+          <div>heloo</div>
+        }
+        {/* <main>
           <h1>Meus projetos</h1>
           <div>
             Algum desses projetos são de cunho avaliativo da Trybe, e outros são projetos pessoais.
@@ -122,6 +152,7 @@ function Projects() {
           </div>
 
         </section>
+          */}
       </div>
       <Footer />
     </div>
