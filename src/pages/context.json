@@ -25,6 +25,15 @@
       "text2": "Usamos HTML e CSS e um pouco de JS nesse projeto."
     },
     "imageSource": "avengers.png"
+  },
+  {
+    "project": "Kafka-Node",
+    "url": "https://github.com/juliofilizzola/kafka-node",
+    "aboutProject": {
+      "text1":  "Nesse repositório, está contido o estudo sobre a estrutura do Apache Kafka no Typescript, utilizando a biblioteca kakfajs. Vamos simular uma API que vai criar as mensagens e outra API que vai consumir essas mensagens.",
+      "text2": "Nesse projeto é utilziado Typescript, Docker, Typeorm, Kafka, Kafkajs entre outro."
+    },
+    "imageSource": "kafka.png"
   }
   ]
 }
