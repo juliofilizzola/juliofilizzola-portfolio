@@ -2,14 +2,29 @@
   "projects": [{
     "project": "To-do List",
     "url": "https://github.com/juliofilizzola/Project-to-do-list",
-    "aboutProject": "O To-do List é o primeiro projeto pessoal usando React, fiz quando comecei o modulo de Front-end na Trybe. Esse projeto foi feito em React, usando as tecnologias: de React Router Dom, React Redux e foi estilizado usando CSS.",
+    "aboutProject": {
+      "text1":  "O To-do List é o primeiro projeto pessoal usando React, fiz quando comecei o modulo de Front-end na Trybe.",
+      "text2": "Esse projeto foi feito em React, usando as tecnologias: de React Router Dom, React Redux e foi estilizado usando CSS."
+    },
     "imageSource": "todoList.png"
   },
   {
-    "project": "To-do List",
-    "url": "https://github.com/juliofilizzola/Project-to-do-list",
-    "aboutProject": "O To-do List é o primeiro projeto pessoal usando React, fiz quando comecei o modulo de Front-end na Trybe. Esse projeto foi feito em React, usando as tecnologias: de React Router Dom, React Redux e foi estilizado usando CSS.",
-    "imageSource": "shopping-cart.png"
+    "project": "LetMeAsk",
+    "url": "https://github.com/juliofilizzola/letmeask",
+    "aboutProject": {
+      "text1":  "Projeto feito na Next Level Week da Rocketseat, foi uma semana imersiva de React que abordou os conceitos de React, useContext, Hooks e ligação com servidor do Firebase.",
+      "text2": "Esse projeto foi feito em React, usando as tecnologias: React Router Dom, useContext, SASS, Hooks e Firebase."
+    },
+    "imageSource": "logo.svg"
+  },
+  {
+    "project": "Marvel",
+    "url": "https://github.com/juliofilizzola/Repo-Marvels",
+    "aboutProject": {
+      "text1":  "Esse foi um dos primeiros projetos que fiz usando API. Foi feito com o meu Amigo Rodolfo Rezende;",
+      "text2": "Usamos HTML e CSS e um pouco de JS nesse projeto."
+    },
+    "imageSource": "avengers.png"
   }
   ]
 }
