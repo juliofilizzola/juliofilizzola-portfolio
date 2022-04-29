@@ -52,7 +52,7 @@ function Projects() {
           {
             projectItens.length &&
               projectItens.map((value: IItem, index: number) => (
-              index % 2 === 0 ? RenderLeft(value) : RenderRight(value)
+              index % 2 === 0 ? RenderLeft(value, index) : RenderRight(value, index)
             ))
           }
         </section>

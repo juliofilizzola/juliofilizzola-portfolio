@@ -1,9 +1,10 @@
 import React from 'react';
 import { DiGithubBadge } from 'react-icons/di';
+import { IItem } from 'src/dto/ProjectsItens';
 
-const RenderLeft = (value: any) => {
+const RenderLeft = (value: IItem, key: number) => {
   return (
-    <div className="Project">
+    <div className="Project" key={key}>
       <h3 className="h3Project">{value.project}</h3>
       <div className="containerProject">
         <img className="img-projects"
