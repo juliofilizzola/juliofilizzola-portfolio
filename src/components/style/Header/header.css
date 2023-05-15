@@ -327,6 +327,7 @@
     letter-spacing: 4px;
     overflow: hidden;
     margin-right: 5px;
+    border: 1px solid transparent;
   }
   header .container a:hover {
     background: #03e9f4;
